@@ -1,0 +1,45 @@
+body{
+
+  background: #339966;
+  color: #eeffff;
+  font-family: Lato, Geneva, Sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  max-width: 500px;
+  margin: auto;
+  border: 9px ridge #73AD21;
+  padding: 30px 30px 30px 30px;
+}
+
+span {
+  display: block;
+  font-weight: 400;
+}
+
+.month {
+  float: left;
+}
+
+.week {
+  display: block;
+}
+
+.week time {
+  width: 28px;
+  margin: 2px 0;
+  text-align: center;
+  display: inline-block;
+  border: 10px solid #aaa;
+}
+
+.week:first-of-type {
+  text-align: right;
+}
+
+time{
+ color: #eeffff;
+ background-color: skyblue;
+}
+a{
+  color: #66ff00;
+}
